@@ -6,16 +6,16 @@
     "fallback_servers": [
       "https://raw.githubusercontent.com/diinrol-design/astra-updates/main/bootstrap.json"
     ],
-    "manifest_url": "https://raw.githubusercontent.com/diinrol-design/astra-updates/main/channels/stable.json",
+    "manifest_url": "https://raw.githubusercontent.com/diinrol-design/astra-updates/main/channels/dev.json",
     "heartbeat_url": "",
     "bugreport_url": "",
-    "latest_version": "0.90.2",
-    "published_at": "2026-08-05T16:49:49.420013+00:00",
+    "latest_version": "0.90.3",
+    "published_at": "2026-08-05T16:59:23.921769+00:00",
     "network": "Astra Update Network 2.0.2",
-    "release_url": "https://github.com/diinrol-design/astra-updates/releases/tag/v0.90.2",
-    "channel": "stable"
+    "release_url": "https://github.com/diinrol-design/astra-updates/releases/tag/v0.90.3",
+    "channel": "dev"
   },
-  "signature": "4fk5lbv4U10v9gsc7phzmZSbgeVijIQP7XwkrpCqJqTx9BW2tOarGDIMC5EazQmKQVx23DNK61/wFhGfhfCsAQ==",
+  "signature": "HlSmNiKfcD0N4CTyzitiBAcJNyI8RxKpuh4m15o95jd9PyLbHv9iteOAUG4ZmrNXkMivB88lRvzb/HB7SxdEDw==",
   "public_key": "+vFzJEqc+KEoUJbskj2nAPLpkgbbZk1GS0hFF5kpzEI=",
   "signature_algorithm": "Ed25519"
 }
