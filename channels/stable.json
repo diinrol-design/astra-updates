@@ -1,11 +1,11 @@
 {
-  "version": "0.90.1",
+  "version": "0.90.2",
   "channel": "stable",
-  "filename": "Astra_0.90.1_stable.zip",
+  "filename": "Astra_0.90.2_stable.zip",
   "size": 612,
   "size_bytes": 612,
   "sha256": "a89b657e7ba668abfc3bf2f8d28e18d60fbc52d84e7431ac1a9b0266017bb0fc",
-  "published_at": "2026-08-05T16:23:52.454999+00:00",
+  "published_at": "2026-08-05T16:49:40.755036+00:00",
   "required": false,
   "notes": {
     "new": [
@@ -15,9 +15,9 @@
     "fixes": [],
     "security": []
   },
-  "download_url": "https://github.com/diinrol-design/astra-updates/releases/download/v0.90.1/Astra_0.90.1_stable.zip",
+  "download_url": "https://github.com/diinrol-design/astra-updates/releases/download/v0.90.2/Astra_0.90.2_stable.zip",
   "torrent_url": "",
   "magnet_url": "",
   "info_hash": "",
-  "signature": "htrYIjLk9WYAdhLr+VnJlVPoyrPYqfBprhucQKRiU7ticnyq2wRzRhcNl86nJCzFALIdcbVKICdhSwFapoACDw=="
+  "signature": "Di+YyS9xDhRRMgGwbvZGGAzF6an7rXQxIsynkjqIBfXMlEu/dryiJ+oZCJRtAS34TfcjVZmPiTDJ79iATPZsDg=="
 }
