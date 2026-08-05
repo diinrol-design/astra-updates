@@ -1,0 +1,23 @@
+{
+  "version": "0.90.1",
+  "channel": "stable",
+  "filename": "Astra_0.90.1_stable.zip",
+  "size": 612,
+  "size_bytes": 612,
+  "sha256": "a89b657e7ba668abfc3bf2f8d28e18d60fbc52d84e7431ac1a9b0266017bb0fc",
+  "published_at": "2026-08-05T16:08:59.253184+00:00",
+  "required": false,
+  "notes": {
+    "new": [
+      "test"
+    ],
+    "improvements": [],
+    "fixes": [],
+    "security": []
+  },
+  "download_url": "https://github.com/diinrol-design/astra-updates/releases/download/v0.90.1/Astra_0.90.1_stable.zip",
+  "torrent_url": "",
+  "magnet_url": "",
+  "info_hash": "",
+  "signature": "ofyXx9kWntLInyNBm71G7/a2XpB+fGYMgUJnjjwdTdJKoNZ8lI/cM8roQEeTWlPeOvQKlZbXv9jsM8cLBCvtCQ=="
+}
