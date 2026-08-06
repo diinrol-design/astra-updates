@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "catalog_version": "1.1",
-  "published_at": "2026-08-06T05:30:47.908524+00:00",
+  "published_at": "2026-08-06T06:58:41.342360+00:00",
   "modules": [
     {
       "id": "growing-mind",
@@ -35,6 +35,25 @@
       "package_url": "https://github.com/diinrol-design/astra-updates/releases/download/module-voice-hearing-v4.4.0/voice-hearing-4.4.0.zip",
       "sha256": "987d169696a385aaa22600c1e34e69f6dd5c26492634217bb52297a9a1e2589d",
       "size_bytes": 99250,
+      "compatibility": {
+        "min_astra": "",
+        "max_astra": ""
+      },
+      "status": "published"
+    },
+    {
+      "id": "astra-vision",
+      "name": "Зрение Astra",
+      "version": "1.0.0",
+      "author": "Astra Project",
+      "category": "Другое",
+      "description": "Камера, анализ изображений и визуальная память Astra.",
+      "changelog": [],
+      "icon_url": "",
+      "icon_urls": [],
+      "package_url": "https://github.com/diinrol-design/astra-updates/releases/download/module-astra-vision-v1.0.0/astra-vision-1.0.0.zip",
+      "sha256": "cf84d051ef18075d731f0773332fdbf96c403ff51548be7ec69c9666d8bff52c",
+      "size_bytes": 1906,
       "compatibility": {
         "min_astra": "",
         "max_astra": ""
