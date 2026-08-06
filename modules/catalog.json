@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "modules": [
+    {
+      "id": "astra-vision",
+      "name": "Зрение Astra",
+      "version": "1.0.0",
+      "description": "Камера, анализ изображений и визуальная память Astra.",
+      "package_url": "https://github.com/diinrol-design/astra-updates/releases/download/module-astra-vision-v1.0.0/astra-vision-1.0.0.zip",
+      "sha256": "cf84d051ef18075d731f0773332fdbf96c403ff51548be7ec69c9666d8bff52c",
+      "size_bytes": 1906,
+      "compatibility": {
+        "min_astra": "",
+        "max_astra": ""
+      },
+      "status": "published"
+    }
+  ]
+}
