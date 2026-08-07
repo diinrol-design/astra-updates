@@ -2,6 +2,24 @@
   "schema_version": 1,
   "items": [
     {
+      "id": "20260807185841-1f39c5ff",
+      "created_at": "2026-08-07T18:58:41.370Z",
+      "last_seen": "2026-08-07T18:58:41.370Z",
+      "status": "new",
+      "occurrences": 1,
+      "instance_id": "395702c86c384631a0273881a4265475",
+      "version": "0.89.0",
+      "title": "ValueError: too many values to unpack (expected 6, got 8)",
+      "description": "Traceback (most recent call last):\n  File \"C:\\Users\\Yuri\\Desktop\\AstraDesktop_0.15.5_Ollama\\gui\\widgets\\chat_engine_2.py\", line 2002, in mouseMoveEvent\n    _raws,_heading,cards,nav,_h,_summary=delegate._shopping_geometry(option,item)\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: too many values to unpack (expected 6, got 8)\n",
+      "details": {
+        "os": "Windows 11",
+        "architecture": "AMD64",
+        "python": "3.14.6",
+        "source": "main_thread"
+      },
+      "has_diagnostics": false
+    },
+    {
       "id": "20260807185829-581b6c44",
       "created_at": "2026-08-07T18:58:29.616Z",
       "last_seen": "2026-08-07T18:58:29.616Z",
@@ -60,5 +78,5 @@
       "has_diagnostics": true
     }
   ],
-  "updated_at": "2026-08-07T18:58:30.762Z"
+  "updated_at": "2026-08-07T18:58:42.451Z"
 }
