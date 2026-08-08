@@ -2,6 +2,24 @@
   "schema_version": 1,
   "items": [
     {
+      "id": "20260808075027-cd42108e",
+      "created_at": "2026-08-08T07:50:27.791Z",
+      "last_seen": "2026-08-08T07:50:27.791Z",
+      "status": "new",
+      "occurrences": 1,
+      "instance_id": "395702c86c384631a0273881a4265475",
+      "version": "0.95.0",
+      "title": "OverflowError: ",
+      "description": "OverflowError\n",
+      "details": {
+        "os": "Windows 11",
+        "architecture": "AMD64",
+        "python": "3.14.6",
+        "source": "main_thread"
+      },
+      "has_diagnostics": false
+    },
+    {
       "id": "20260808075020-e6b4a4b3",
       "created_at": "2026-08-08T07:50:20.451Z",
       "last_seen": "2026-08-08T07:50:20.451Z",
@@ -960,5 +978,5 @@
       "has_diagnostics": true
     }
   ],
-  "updated_at": "2026-08-08T07:50:21.591Z"
+  "updated_at": "2026-08-08T07:50:28.838Z"
 }
