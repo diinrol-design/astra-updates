@@ -8,16 +8,16 @@
     ],
     "manifest_url": "https://raw.githubusercontent.com/diinrol-design/astra-updates/main/channels/stable.json",
     "heartbeat_url": "",
-    "bugreport_url": "https://astra-bugreports.diinrol.workers.dev/report",
+    "bugreport_url": "",
     "bugreport_issue_url": "",
     "module_catalog_url": "https://diinrol-design.github.io/astra-updates/modules/catalog.json",
-    "latest_version": "1.00.0",
-    "published_at": "2026-08-06T19:19:37.734251+00:00",
+    "latest_version": "1.00.1",
+    "published_at": "2026-08-08T13:28:36.698011+00:00",
     "network": "Astra Update Network 2.0.2",
-    "release_url": "https://github.com/diinrol-design/astra-updates/releases/tag/v1.00.0",
+    "release_url": "https://github.com/diinrol-design/astra-updates/releases/tag/v1.00.1",
     "channel": "stable"
   },
-  "signature": "gRoXqvAWJP7oa/RbemJNzbg96/YPOKrlwolGiB8+rl2nNfO9bUK4Oy/Nskr2Ik9sUuiAWhpXsc8HZBseLdldCQ==",
+  "signature": "7Ovh2uUYLJi0fyC0yGmeh1Lzan1ipfEeQXdbyZcfPuzQTOLqw22Mzta31KNhq3cfBusCMTn3JilvBjNkqJffDg==",
   "public_key": "+vFzJEqc+KEoUJbskj2nAPLpkgbbZk1GS0hFF5kpzEI=",
   "signature_algorithm": "Ed25519"
 }
