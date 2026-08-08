@@ -1,0 +1,18 @@
+{
+  "id": "20260808074900-22e451a6",
+  "created_at": "2026-08-08T07:49:00.771Z",
+  "last_seen": "2026-08-08T07:49:00.771Z",
+  "status": "new",
+  "occurrences": 1,
+  "instance_id": "395702c86c384631a0273881a4265475",
+  "version": "0.95.0",
+  "title": "OverflowError: ",
+  "description": "OverflowError\n",
+  "details": {
+    "os": "Windows 11",
+    "architecture": "AMD64",
+    "python": "3.14.6",
+    "source": "main_thread"
+  },
+  "has_diagnostics": false
+}
