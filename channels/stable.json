@@ -1,23 +1,23 @@
 {
-  "version": "1.00.1",
+  "version": "1.00.2",
   "channel": "stable",
-  "filename": "Astra_1.00.1_stable.zip",
-  "size": 116145857,
-  "size_bytes": 116145857,
-  "sha256": "afd96d516f41cac88da5461dd9750efddd95d268271ebb428aec3c278dcfd47c",
-  "published_at": "2026-08-08T13:25:24.876789+00:00",
+  "filename": "Astra_1.00.2_stable.zip",
+  "size": 116220239,
+  "size_bytes": 116220239,
+  "sha256": "6a410f96b70b4862c078248c94ba5e4616e3d2c9d188fb22da8f302e6a88909d",
+  "published_at": "2026-08-09T09:53:44.999954+00:00",
   "required": false,
   "notes": {
     "new": [
-      "Много пиздатых обнов"
+      "интернет поиск и система обновления астра"
     ],
     "improvements": [],
     "fixes": [],
     "security": []
   },
-  "download_url": "https://github.com/diinrol-design/astra-updates/releases/download/v1.00.1/Astra_1.00.1_stable.zip",
+  "download_url": "https://github.com/diinrol-design/astra-updates/releases/download/v1.00.2/Astra_1.00.2_stable.zip",
   "torrent_url": "",
   "magnet_url": "",
   "info_hash": "",
-  "signature": "InNVZsIhM8aFHwjflvsbsJDHga2yU3ELVj8T2tJxV94pmbgg7jZnelR4To76Nv98ly9zkTGqAr4N0hHhK3lcDw=="
+  "signature": "x0OVyQ/hbcjpzuY4sMkamBwAg7EUqG3AFit1JB/7nF0NntXKA05Nvx8E1yFCV6w5ATWAMkjTtXm5rMmX7AliCg=="
 }
