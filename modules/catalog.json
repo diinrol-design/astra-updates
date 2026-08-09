@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "catalog_version": "1.1",
-  "published_at": "2026-08-09T09:33:54.607985+00:00",
+  "published_at": "2026-08-09T09:38:26.931642+00:00",
   "modules": [
     {
       "id": "growing-mind",
@@ -57,6 +57,25 @@
       "compatibility": {
         "min_astra": "",
         "max_astra": ""
+      },
+      "status": "published"
+    },
+    {
+      "id": "remote-ai",
+      "name": "Облачные ИИ",
+      "version": "2.0.3",
+      "author": "Astra Community",
+      "category": "ИИ",
+      "description": "OpenRouter, Gemini, Groq и Hugging Face как полноценный модуль новой системы Astra. У каждого провайдера собственный API-ключ; при переключении показывается только ключ выбранного сервиса.",
+      "changelog": [],
+      "icon_url": "",
+      "icon_urls": [],
+      "package_url": "https://github.com/diinrol-design/astra-updates/releases/download/module-remote-ai-v2.0.3/remote-ai-2.0.3.zip",
+      "sha256": "fe1ccc187e7bb2d5f0bcbb5300856d67d9b3bdcc8d9d6c8d06aac9947fd91423",
+      "size_bytes": 9457,
+      "compatibility": {
+        "min_astra": "0.94.0",
+        "max_astra": "2.x"
       },
       "status": "published"
     }
