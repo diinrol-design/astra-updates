@@ -1,27 +1,8 @@
 {
   "schema_version": 1,
   "catalog_version": "1.1",
-  "published_at": "2026-08-09T09:38:26.931642+00:00",
+  "published_at": "2026-08-10T08:41:48.511332+00:00",
   "modules": [
-    {
-      "id": "growing-mind",
-      "name": "Growing Mind",
-      "version": "0.6.0",
-      "author": "Astra",
-      "category": "Другое",
-      "description": "Growing Mind 0.6.0 с Memory Manager 1.0: .gmm, импорт/экспорт, резервные копии, проверка, оптимизация и безопасная очистка.",
-      "changelog": [],
-      "icon_url": "",
-      "icon_urls": [],
-      "package_url": "https://github.com/diinrol-design/astra-updates/releases/download/module-growing-mind-v0.6.0/growing-mind-0.6.0.zip",
-      "sha256": "31425a2719819f2ba1e04255aa666012ec61ed32921c244f82bf46b35ab0285a",
-      "size_bytes": 19937,
-      "compatibility": {
-        "min_astra": "0.94.0",
-        "max_astra": "2.x"
-      },
-      "status": "published"
-    },
     {
       "id": "voice-hearing",
       "name": "Голос и слух",
