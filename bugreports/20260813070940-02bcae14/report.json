@@ -1,0 +1,18 @@
+{
+  "id": "20260813070940-02bcae14",
+  "created_at": "2026-08-13T07:09:40.689Z",
+  "last_seen": "2026-08-13T07:09:40.689Z",
+  "status": "new",
+  "occurrences": 1,
+  "instance_id": "395702c86c384631a0273881a4265475",
+  "version": "1.00.4",
+  "title": "TypeError: int() argument must be a string, a bytes-like object or a real number, not 'MouseButton'",
+  "description": "Traceback (most recent call last):\n  File \"C:\\Users\\Yuri\\Desktop\\AstraDesktop_0.15.5_Ollama\\gui\\widgets\\chat_engine_2.py\", line 2668, in eventFilter\n    self._chat_selection_diag(\"PRESS\", f\"x={pos.x()} y={pos.y()} buttons={int(event.buttons())}\")\n                                                                          ~~~^^^^^^^^^^^^^^^^^\nTypeError: int() argument must be a string, a bytes-like object or a real number, not 'MouseButton'\n",
+  "details": {
+    "os": "Windows 11",
+    "architecture": "AMD64",
+    "python": "3.14.6",
+    "source": "main_thread"
+  },
+  "has_diagnostics": false
+}
