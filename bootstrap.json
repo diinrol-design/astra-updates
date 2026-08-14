@@ -11,13 +11,13 @@
     "bugreport_url": "https://astra-bugreports.diinrol.workers.dev/report",
     "bugreport_issue_url": "",
     "module_catalog_url": "https://diinrol-design.github.io/astra-updates/modules/catalog.json",
-    "latest_version": "1.00.4",
-    "published_at": "2026-08-14T15:50:38.180258+00:00",
+    "latest_version": "1.00.5",
+    "published_at": "2026-08-14T16:40:07.561696+00:00",
     "network": "Companion Update Network 2.0.2",
-    "release_url": "https://github.com/diinrol-design/astra-updates/releases/tag/v1.00.4",
+    "release_url": "https://github.com/diinrol-design/astra-updates/releases/tag/v1.00.5",
     "channel": "stable"
   },
-  "signature": "bKsfU1DxTNUxCOgzxMvEL+/eCLdUBALb2fYQDABdVHThrx6uvlEUuSiukDZyU23XqFU4+30lmxX6ANV0SHqWAw==",
+  "signature": "fXDoPGxsWNhsYIWnaqKaLgwSDOChBnnYcxnZgiZnDKVHgFriuyX/GvwSlNXmdDMlGuECfcFRCrlyGsYVEqFBAw==",
   "public_key": "+vFzJEqc+KEoUJbskj2nAPLpkgbbZk1GS0hFF5kpzEI=",
   "signature_algorithm": "Ed25519"
 }
