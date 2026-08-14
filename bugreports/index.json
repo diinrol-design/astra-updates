@@ -270,25 +270,7 @@
         "source": "main_thread"
       },
       "has_diagnostics": false
-    },
-    {
-      "id": "20260811081122-a4d15623",
-      "created_at": "2026-08-11T08:11:22.982Z",
-      "last_seen": "2026-08-11T08:11:22.982Z",
-      "status": "new",
-      "occurrences": 1,
-      "instance_id": "395702c86c384631a0273881a4265475",
-      "version": "1.00.4",
-      "title": "AttributeError: 'Sidebar' object has no attribute 'set_assistant_name'",
-      "description": "Traceback (most recent call last):\n  File \"C:\\Users\\Yuri\\Desktop\\AstraDesktop_0.15.5_Ollama\\gui\\widgets\\personality_dialog.py\", line 255, in _save_identity\n    window.refresh_assistant_identity()\n    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^\n  File \"C:\\Users\\Yuri\\Desktop\\AstraDesktop_0.15.5_Ollama\\gui\\main_window.py\", line 350, in refresh_assistant_identity\n    self.sidebar.set_assistant_name(name)\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'Sidebar' object has no attribute 'set_assistant_name'\n",
-      "details": {
-        "os": "Windows 11",
-        "architecture": "AMD64",
-        "python": "3.14.6",
-        "source": "main_thread"
-      },
-      "has_diagnostics": false
     }
   ],
-  "updated_at": "2026-08-14T13:01:59.905Z"
+  "updated_at": "2026-08-14T13:02:02.782Z"
 }
