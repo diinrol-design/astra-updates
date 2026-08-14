@@ -1,62 +1,24 @@
 {
   "schema_version": 1,
   "catalog_version": "1.1",
-  "published_at": "2026-08-10T08:41:48.511332+00:00",
+  "published_at": "2026-08-14T15:13:07.432710+00:00",
   "modules": [
     {
-      "id": "voice-hearing",
-      "name": "Голос и слух",
-      "version": "4.4.0",
-      "author": "Astra Project",
+      "id": "pc-control",
+      "name": "PC Control",
+      "version": "2.5.0",
+      "author": "Companion Project",
       "category": "Другое",
-      "description": "Unified Voice Engine: единый непрерывный аудиопоток, гибкое окно команды после слова «Астра» и сохранение первых слов",
+      "description": "Безопасное управление Windows: файлы, приложения, питание, звук, окна, мышь, клавиатура и проверяемые многошаговые сценарии.",
       "changelog": [],
       "icon_url": "",
       "icon_urls": [],
-      "package_url": "https://github.com/diinrol-design/astra-updates/releases/download/module-voice-hearing-v4.4.0/voice-hearing-4.4.0.zip",
-      "sha256": "987d169696a385aaa22600c1e34e69f6dd5c26492634217bb52297a9a1e2589d",
-      "size_bytes": 99250,
+      "package_url": "https://github.com/diinrol-design/astra-updates/releases/download/module-pc-control-v2.5.0/pc-control-2.5.0.zip",
+      "sha256": "26a6c7c95aa9b18ea208b04d373c3b12d731697e72c2ab3786b28c739cffd31f",
+      "size_bytes": 13742,
       "compatibility": {
-        "min_astra": "",
-        "max_astra": ""
-      },
-      "status": "published"
-    },
-    {
-      "id": "astra-vision",
-      "name": "Зрение Astra",
-      "version": "1.0.0",
-      "author": "Astra Project",
-      "category": "Другое",
-      "description": "Камера, анализ изображений и визуальная память Astra.",
-      "changelog": [],
-      "icon_url": "",
-      "icon_urls": [],
-      "package_url": "https://github.com/diinrol-design/astra-updates/releases/download/module-astra-vision-v1.0.0/astra-vision-1.0.0.zip",
-      "sha256": "cf84d051ef18075d731f0773332fdbf96c403ff51548be7ec69c9666d8bff52c",
-      "size_bytes": 1906,
-      "compatibility": {
-        "min_astra": "",
-        "max_astra": ""
-      },
-      "status": "published"
-    },
-    {
-      "id": "remote-ai",
-      "name": "Облачные ИИ",
-      "version": "2.0.3",
-      "author": "Astra Community",
-      "category": "ИИ",
-      "description": "OpenRouter, Gemini, Groq и Hugging Face как полноценный модуль новой системы Astra. У каждого провайдера собственный API-ключ; при переключении показывается только ключ выбранного сервиса.",
-      "changelog": [],
-      "icon_url": "",
-      "icon_urls": [],
-      "package_url": "https://github.com/diinrol-design/astra-updates/releases/download/module-remote-ai-v2.0.3/remote-ai-2.0.3.zip",
-      "sha256": "fe1ccc187e7bb2d5f0bcbb5300856d67d9b3bdcc8d9d6c8d06aac9947fd91423",
-      "size_bytes": 9457,
-      "compatibility": {
-        "min_astra": "0.94.0",
-        "max_astra": "2.x"
+        "min_astra": "1.00.4",
+        "max_astra": "1.x"
       },
       "status": "published"
     }
