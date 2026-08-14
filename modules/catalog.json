@@ -1,8 +1,27 @@
 {
   "schema_version": 1,
   "catalog_version": "1.1",
-  "published_at": "2026-08-14T15:13:23.288898+00:00",
+  "published_at": "2026-08-14T16:00:00.076378+00:00",
   "modules": [
+    {
+      "id": "pc-control",
+      "name": "PC Control",
+      "version": "2.5.0",
+      "author": "Companion Project",
+      "category": "Другое",
+      "description": "Безопасное управление Windows: файлы, приложения, питание, звук, окна, мышь, клавиатура и проверяемые многошаговые сценарии.",
+      "changelog": [],
+      "icon_url": "",
+      "icon_urls": [],
+      "package_url": "https://github.com/diinrol-design/astra-updates/releases/download/module-pc-control-v2.5.0/pc-control-2.5.0.zip",
+      "sha256": "26a6c7c95aa9b18ea208b04d373c3b12d731697e72c2ab3786b28c739cffd31f",
+      "size_bytes": 13742,
+      "compatibility": {
+        "min_astra": "1.00.4",
+        "max_astra": "1.x"
+      },
+      "status": "published"
+    },
     {
       "id": "voice-hearing",
       "name": "Голос и слух",
