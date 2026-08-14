@@ -1,11 +1,11 @@
 {
-  "version": "1.00.4",
+  "version": "1.00.5",
   "channel": "stable",
-  "filename": "Companion_1.00.4_stable.zip",
-  "size": 341218934,
-  "size_bytes": 341218934,
-  "sha256": "2801126a9b61cb0c73e40d962b927199001af42dde3258867cb1a93f1a916730",
-  "published_at": "2026-08-14T15:49:44.673929+00:00",
+  "filename": "Companion_1.00.5_stable.zip",
+  "size": 341219851,
+  "size_bytes": 341219851,
+  "sha256": "e26a469aef1b3c1413f56c399319ea74f344eb25ee510210c9dd1346877a8982",
+  "published_at": "2026-08-14T16:39:13.740961+00:00",
   "required": false,
   "notes": {
     "new": [
@@ -15,9 +15,9 @@
     "fixes": [],
     "security": []
   },
-  "download_url": "https://github.com/diinrol-design/astra-updates/releases/download/v1.00.4/Companion_1.00.4_stable.zip",
+  "download_url": "https://github.com/diinrol-design/astra-updates/releases/download/v1.00.5/Companion_1.00.5_stable.zip",
   "torrent_url": "",
   "magnet_url": "",
   "info_hash": "",
-  "signature": "6lIWWvE74NpVo0rWeCKe6oEfVHkmBHzY0/BXbkKJki7SfpetvKTaMiDv6cCII7wIlccbnCffBvTKDbnDHfzzCQ=="
+  "signature": "Jtt5B6GAnpwcsLWkptoDOL77mUxi5+K035alY1pnQU4FO/ZCs4FW0R1fK1hjITTy+FSdK30xkY6vcU1v3CfVDw=="
 }
