@@ -2,6 +2,24 @@
   "schema_version": 1,
   "items": [
     {
+      "id": "20260826182029-030b26db",
+      "created_at": "2026-08-26T18:20:29.768Z",
+      "last_seen": "2026-08-26T18:20:29.768Z",
+      "status": "new",
+      "occurrences": 1,
+      "instance_id": "395702c86c384631a0273881a4265475",
+      "version": "1.00.5",
+      "title": "AttributeError: 'list' object has no attribute 'split'",
+      "description": "Traceback (most recent call last):\n  File \"scripts\\context_routing_gui_e2e.py\", line 131, in _send_turn\n  File \"gui\\chat_widget.py\", line 1692, in send_message\nAttributeError: 'list' object has no attribute 'split'\n",
+      "details": {
+        "os": "Windows 11",
+        "architecture": "AMD64",
+        "python": "3.14.6",
+        "source": "main_thread"
+      },
+      "has_diagnostics": false
+    },
+    {
       "id": "20260815053645-d838dc11",
       "created_at": "2026-08-15T05:36:45.860Z",
       "last_seen": "2026-08-15T05:36:45.860Z",
@@ -110,5 +128,5 @@
       "has_diagnostics": false
     }
   ],
-  "updated_at": "2026-08-15T05:36:47.113Z"
+  "updated_at": "2026-08-26T18:20:31.443Z"
 }
