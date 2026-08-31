@@ -2,6 +2,24 @@
   "schema_version": 1,
   "items": [
     {
+      "id": "20260831110539-a22ada8c",
+      "created_at": "2026-08-31T11:05:39.306Z",
+      "last_seen": "2026-08-31T11:05:39.306Z",
+      "status": "new",
+      "occurrences": 1,
+      "instance_id": "395702c86c384631a0273881a4265475",
+      "version": "1.00.5",
+      "title": "NameError: Error calling Python override of QStyledItemDelegate::paint(): name 'QRectF' is not defined",
+      "description": "Traceback (most recent call last):\n  File \"C:\\Users\\Yuri\\Desktop\\Проект\\gui\\widgets\\chat_engine_2.py\", line 2710, in viewportEvent\n    return super().viewportEvent(event)\n           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^\n  File \"C:\\Users\\Yuri\\Desktop\\Проект\\gui\\widgets\\chat_engine_2.py\", line 2110, in paint\n    rounded = QRectF(card_rect)\n              ^^^^^^\nNameError: Error calling Python override of QStyledItemDelegate::paint(): name 'QRectF' is not defined. Did you mean: 'QRect'?\n",
+      "details": {
+        "os": "Windows 11",
+        "architecture": "AMD64",
+        "python": "3.14.6",
+        "source": "main_thread"
+      },
+      "has_diagnostics": false
+    },
+    {
       "id": "20260831110530-a698bd4c",
       "created_at": "2026-08-31T11:05:30.875Z",
       "last_seen": "2026-08-31T11:05:30.875Z",
@@ -200,5 +218,5 @@
       "has_diagnostics": false
     }
   ],
-  "updated_at": "2026-08-31T11:05:32.225Z"
+  "updated_at": "2026-08-31T11:05:41.607Z"
 }
