@@ -2,6 +2,24 @@
   "schema_version": 1,
   "items": [
     {
+      "id": "20260831110554-fe666691",
+      "created_at": "2026-08-31T11:05:54.318Z",
+      "last_seen": "2026-08-31T11:05:54.318Z",
+      "status": "new",
+      "occurrences": 1,
+      "instance_id": "395702c86c384631a0273881a4265475",
+      "version": "1.00.5",
+      "title": "NameError: Error calling Python override of QStyledItemDelegate::paint(): Error calling Python override of QStyledItemDelegate::sizeHint(): Error calling Python override of QAbstractListModel::rowCoun",
+      "description": "Traceback (most recent call last):\n  File \"C:\\Users\\Yuri\\Desktop\\Проект\\gui\\widgets\\chat_engine_2.py\", line 2710, in viewportEvent\n    return super().viewportEvent(event)\n           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^\n  File \"C:\\Users\\Yuri\\Desktop\\Проект\\gui\\widgets\\chat_engine_2.py\", line 2030, in paint\n    item = index.data(ROLE_DATA)\n  File \"C:\\Users\\Yuri\\Desktop\\Проект\\gui\\widgets\\chat_engine_2.py\", line 1132, in sizeHint\n    item = index.data(ROLE_DATA)\n  File \"C:\\Users\\Yuri\\Desktop\\Проект\\gui\\widgets\\chat_engine_2.py\", line 154, in rowCount\n    return 0 if parent.isValid() else len(self.items)\n                ~~~~~~~~~~~~~~^^\n  File \"C:\\Users\\Yuri\\Desktop\\Проект\\gui\\widgets\\chat_engine_2.py\", line 154, in rowCount\n    return 0 if parent.isValid() else len(self.items)\n                ~~~~~~~~~~~~~~^^\n  File \"C:\\Users\\Yuri\\Desktop\\Проект\\gui\\widgets\\chat_engine_2.py\", line 2030, in paint\n    item = index.data(ROLE_DATA)\n  File \"C:\\Users\\Yuri\\Desktop\\Проект\\gui\\widgets\\chat_engine_2.py\", line 1132, in sizeHint\n    item = index.data(ROLE_DATA)\n  File \"C:\\Users\\Yuri\\Desktop\\Проект\\gui\\widgets\\chat_engine_2.py\", line 154, in rowCount\n    return 0 if parent.isValid() else len(self.items)\n                ~~~~~~~~~~~~~~^^\n  File \"C:\\Users\\Yuri\\Desktop\\Проект\\gui\\widgets\\chat_engine_2.py\", line 154, in rowCount\n    return 0 if parent.isValid() else len(self.items)\n                ~~~~~~~~~~~~~~^^\n  File \"C:\\Users\\Yuri\\Desktop\\Проект\\gui\\widgets\\chat_engine_2.py\", line 2030, in paint\n    item = index.data(ROLE_DATA)\n  File \"C:\\Users\\Yuri\\Desktop\\Проект\\gui\\widgets\\chat_engine_2.py\", line 1132, in sizeHint\n    item = index.data(ROLE_DATA)\n  File \"C:\\Users\\Yuri\\Desktop\\Проект\\gui\\widgets\\chat_engine_2.py\", line 154, in rowCount\n    return 0 if parent.isValid() else len(self.items)\n                ~~~~~~~~~~~~~~^^\n  File \"C:\\Users\\Yuri\\Desktop\\Проект\\gui\\widgets\\chat_engine_2.py\", line 154, in rowCount\n    return 0 if parent.isValid() else len(self.items)\n                ~~~~~~~~~~~~~~^^\n  File \"C:\\Users\\Yuri\\Desktop\\Проект\\gui\\widgets\\chat_engine_2.py\", line 2110, in paint\n    rounded = QRectF(card_rect)\n              ^^^^^^\nNameError: Error calling Python override of QStyledItemDelegate::paint(): Error calling Python override of QStyledItemDelegate::sizeHint(): Error calling Python override of QAbstractListModel::rowCount(): Error calling Python override of QAbstractListModel::rowCount(): Error calling Python override of QStyledItemDelegate::paint(): Error calling Python override of QStyledItemDelegate::sizeHint(): Error calling Python override of QAbstractListModel::rowCount(): Error calling Python override of QAbstractListModel::rowCount(): Error calling Python override of QStyledItemDelegate::paint(): Error calling Python override of QStyledItemDelegate::sizeHint(): Error calling Python override of QAbstractListModel::rowCount(): Error calling Python override of QAbstractListModel::rowCount(): Error calling Python override of QStyledItemDelegate::paint(): name 'QRectF' is not defined. Did you mean: 'QRect'?\n",
+      "details": {
+        "os": "Windows 11",
+        "architecture": "AMD64",
+        "python": "3.14.6",
+        "source": "main_thread"
+      },
+      "has_diagnostics": false
+    },
+    {
       "id": "20260831110549-91a022c6",
       "created_at": "2026-08-31T11:05:49.332Z",
       "last_seen": "2026-08-31T11:05:49.332Z",
@@ -236,5 +254,5 @@
       "has_diagnostics": false
     }
   ],
-  "updated_at": "2026-08-31T11:05:52.577Z"
+  "updated_at": "2026-08-31T11:05:55.532Z"
 }
