@@ -1,0 +1,18 @@
+{
+  "id": "20260918095204-eb348f99",
+  "created_at": "2026-09-18T09:52:04.708Z",
+  "last_seen": "2026-09-18T09:52:04.708Z",
+  "status": "new",
+  "occurrences": 1,
+  "instance_id": "395702c86c384631a0273881a4265475",
+  "version": "1.00.6",
+  "title": "NameError: name '_style_toolbar_button' is not defined",
+  "description": "Traceback (most recent call last):\n  File \"C:\\Users\\Yuri\\Desktop\\Проект\\gui\\main_window.py\", line 613, in open_modules\n    self.modules_page = ModulesPage(module_engine=getattr(self.context, \"module_engine\", None), parent=self.workspace)\n                        ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Yuri\\Desktop\\Проект\\gui\\widgets\\modules_page.py\", line 15, in __init__\n    self._install_messenger_section()\n    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^\n  File \"C:\\Users\\Yuri\\Desktop\\Проект\\gui\\widgets\\modules_page.py\", line 26, in _install_messenger_section\n    _style_toolbar_button(self.messengers_tab_button)\n    ^^^^^^^^^^^^^^^^^^^^^\nNameError: name '_style_toolbar_button' is not defined\n",
+  "details": {
+    "os": "Windows 11",
+    "architecture": "AMD64",
+    "python": "3.14.6",
+    "source": "main_thread"
+  },
+  "has_diagnostics": false
+}
