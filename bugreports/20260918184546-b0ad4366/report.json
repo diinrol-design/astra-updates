@@ -1,0 +1,18 @@
+{
+  "id": "20260918184546-b0ad4366",
+  "created_at": "2026-09-18T18:45:46.530Z",
+  "last_seen": "2026-09-18T18:45:46.530Z",
+  "status": "new",
+  "occurrences": 1,
+  "instance_id": "395702c86c384631a0273881a4265475",
+  "version": "1.00.6",
+  "title": "NameError: name 'QPushButton' is not defined",
+  "description": "Traceback (most recent call last):\n  File \"C:\\Users\\Yuri\\Desktop\\Проект\\gui\\main_window.py\", line 455, in open_memory\n    self._embed_dialog(\n    ~~~~~~~~~~~~~~~~~~^\n        \"memory\", td(\"Память\"),\n        ^^^^^^^^^^^^^^^^^^^^^^^\n        td(f\"Факты, воспоминания, цели и связи {AppSettings().assistant_name()}\"),\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n        self.memory_dialog,\n        ^^^^^^^^^^^^^^^^^^^\n    )\n    ^\n  File \"C:\\Users\\Yuri\\Desktop\\Проект\\gui\\main_window.py\", line 285, in _embed_dialog\n    page = self._wrap_page(\n        title,\n    ...<2 lines>...\n        expand_content=(key != \"cloud_models\"),\n    )\n  File \"C:\\Users\\Yuri\\Desktop\\Проект\\gui\\main_window.py\", line 232, in _wrap_page\n    back_button = QPushButton(\"←\")\n                  ^^^^^^^^^^^\nNameError: name 'QPushButton' is not defined\n",
+  "details": {
+    "os": "Windows 11",
+    "architecture": "AMD64",
+    "python": "3.14.6",
+    "source": "main_thread"
+  },
+  "has_diagnostics": false
+}
