@@ -2,6 +2,24 @@
   "schema_version": 1,
   "items": [
     {
+      "id": "20260919052712-6434f91e",
+      "created_at": "2026-09-19T05:27:12.451Z",
+      "last_seen": "2026-09-19T05:27:12.451Z",
+      "status": "new",
+      "occurrences": 1,
+      "instance_id": "5e4ffa957be44d7fb7637664fcb98607",
+      "version": "1.00.6",
+      "title": "UnboundLocalError: cannot access local variable '_StopDiagLogger' where it is not associated with a value",
+      "description": "Traceback (most recent call last):\n  File \"C:\\Users\\Yuri\\Desktop\\Проект\\gui\\chat_widget.py\", line 718, in <lambda>\n    self.input_bar.message_submitted.connect(lambda text: self.send_message(text))\n                                                          ~~~~~~~~~~~~~~~~~^^^^^^\n  File \"C:\\Users\\Yuri\\Desktop\\Проект\\gui\\chat_widget.py\", line 2041, in send_message\n    _StopDiagLogger().log(\"EVENT\", f\"CHAT_ROUTE_DIAG intent={intent!r} text_len={len(text)}\")\n    ^^^^^^^^^^^^^^^\nUnboundLocalError: cannot access local variable '_StopDiagLogger' where it is not associated with a value\n",
+      "details": {
+        "os": "Windows 11",
+        "architecture": "AMD64",
+        "python": "3.14.6",
+        "source": "main_thread"
+      },
+      "has_diagnostics": false
+    },
+    {
       "id": "20260919052601-77549406",
       "created_at": "2026-09-19T05:26:01.364Z",
       "last_seen": "2026-09-19T05:26:01.364Z",
@@ -596,5 +614,5 @@
       "has_diagnostics": false
     }
   ],
-  "updated_at": "2026-09-19T05:26:03.061Z"
+  "updated_at": "2026-09-19T05:27:13.686Z"
 }
