@@ -1,0 +1,18 @@
+{
+  "id": "20260919053915-9ad95a97",
+  "created_at": "2026-09-19T05:39:15.372Z",
+  "last_seen": "2026-09-19T05:39:15.372Z",
+  "status": "new",
+  "occurrences": 1,
+  "instance_id": "395702c86c384631a0273881a4265475",
+  "version": "1.00.6",
+  "title": "PermissionError: [WinError 5] Отказано в доступе: 'C:\\\\Users\\\\Yuri\\\\AppData\\\\Local\\\\AstraDesktop\\\\chats\\\\d761e934260b4ccebad4f1c5a71bb0ae.json.tmp' -> 'C:\\\\Users\\\\Yuri\\\\AppData\\\\Local\\\\AstraDesktop\\\\c",
+  "description": "Traceback (most recent call last):\n  File \"C:\\Users\\Yuri\\Desktop\\Проект\\gui\\widgets\\input_bar.py\", line 650, in _handle_main_button\n    self.submit()\n    ~~~~~~~~~~~^^\n  File \"C:\\Users\\Yuri\\Desktop\\Проект\\gui\\widgets\\input_bar.py\", line 675, in submit\n    callback(text)\n    ~~~~~~~~^^^^^^\n  File \"C:\\Users\\Yuri\\Desktop\\Проект\\gui\\chat_widget.py\", line 574, in <lambda>\n    self.input_bar.submit_callback = lambda text: self.send_message(text)\n                                                  ~~~~~~~~~~~~~~~~~^^^^^^\n  File \"C:\\Users\\Yuri\\Desktop\\Проект\\gui\\chat_widget.py\", line 2135, in send_message\n    user_message = self.chat_store.append_message(\n        chat_id=chat_id,\n    ...<3 lines>...\n        attachments=user_attachments,\n    )\n  File \"C:\\Users\\Yuri\\Desktop\\Проект\\gui\\chat_store.py\", line 259, in append_message\n    self._atomic_write(self._chat_path(chat_id), chat)\n    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Yuri\\Desktop\\Проект\\gui\\chat_store.py\", line 66, in _atomic_write\n    temp_path.replace(path)\n    ~~~~~~~~~~~~~~~~~^^^^^^\n  File \"C:\\Users\\Yuri\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\pathlib\\__init__.py\", line 1091, in replace\n    os.replace(self, target)\n    ~~~~~~~~~~^^^^^^^^^^^^^^\nPermissionError: [WinError 5] Отказано в доступе: 'C:\\\\Users\\\\Yuri\\\\AppData\\\\Local\\\\AstraDesktop\\\\chats\\\\d761e934260b4ccebad4f1c5a71bb0ae.json.tmp' -> 'C:\\\\Users\\\\Yuri\\\\AppData\\\\Local\\\\AstraDesktop\\\\chats\\\\d761e934260b4ccebad4f1c5a71bb0ae.json'\n",
+  "details": {
+    "os": "Windows 11",
+    "architecture": "AMD64",
+    "python": "3.14.6",
+    "source": "main_thread"
+  },
+  "has_diagnostics": false
+}
