@@ -1,0 +1,18 @@
+{
+  "id": "20260928202214-b612ef97",
+  "created_at": "2026-09-28T20:22:14.848Z",
+  "last_seen": "2026-09-28T20:22:14.848Z",
+  "status": "new",
+  "occurrences": 1,
+  "instance_id": "ef87f32621544a06a0f010d767b4946a",
+  "version": "1.00.5",
+  "title": "NameError: name 'os' is not defined",
+  "description": "Traceback (most recent call last):\n  File \"C:\\Users\\Виталя\\AppData\\Local\\AstraDesktop\\modules\\desktop-3d-companion\\main.py\", line 141, in _tick\n  File \"C:\\Users\\Виталя\\AppData\\Local\\AstraDesktop\\modules\\desktop-3d-companion\\main.py\", line 99, in update\n  File \"C:\\Users\\Виталя\\AppData\\Local\\AstraDesktop\\modules\\desktop-3d-companion\\main.py\", line 71, in _foreground_info\nNameError: name 'os' is not defined. Did you forget to import 'os'?\n",
+  "details": {
+    "os": "Windows 11",
+    "architecture": "AMD64",
+    "python": "3.14.6",
+    "source": "main_thread"
+  },
+  "has_diagnostics": false
+}
