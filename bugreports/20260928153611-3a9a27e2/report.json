@@ -1,0 +1,18 @@
+{
+  "id": "20260928153611-3a9a27e2",
+  "created_at": "2026-09-28T15:36:11.845Z",
+  "last_seen": "2026-09-28T15:36:11.845Z",
+  "status": "new",
+  "occurrences": 1,
+  "instance_id": "395702c86c384631a0273881a4265475",
+  "version": "1.00.6",
+  "title": "AttributeError: 'AppSettings' object has no attribute 'response_style'",
+  "description": "Traceback (most recent call last):\n  File \"C:\\Users\\Yuri\\Desktop\\Проект\\gui\\main_window.py\", line 1041, in open_settings\n    self.settings_dialog = SettingsDialog(parent=self)\n                           ~~~~~~~~~~~~~~^^^^^^^^^^^^^\n  File \"C:\\Users\\Yuri\\Desktop\\Проект\\gui\\widgets\\settings_dialog.py\", line 876, in __init__\n    self.reload()\n    ~~~~~~~~~~~^^\n  File \"C:\\Users\\Yuri\\Desktop\\Проект\\gui\\widgets\\settings_dialog.py\", line 1068, in reload\n    self.store.response_style()\n    ^^^^^^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'AppSettings' object has no attribute 'response_style'. Did you mean: 'set_response_style'?\n",
+  "details": {
+    "os": "Windows 11",
+    "architecture": "AMD64",
+    "python": "3.14.6",
+    "source": "main_thread"
+  },
+  "has_diagnostics": false
+}
