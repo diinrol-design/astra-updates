@@ -2,6 +2,24 @@
   "schema_version": 1,
   "items": [
     {
+      "id": "20260929232451-880cc04d",
+      "created_at": "2026-09-29T23:24:51.959Z",
+      "last_seen": "2026-09-29T23:24:51.959Z",
+      "status": "new",
+      "occurrences": 1,
+      "instance_id": "8ef16fefc4a8415bb2102dd9cf357067",
+      "version": "1.00.5",
+      "title": "TypeError: ModuleAPI.emit() takes 2 positional arguments but 3 were given",
+      "description": "Traceback (most recent call last):\n  File \"C:\\Users\\Vitalya\\AppData\\Local\\AstraDesktop\\modules\\desktop-3d-companion\\main.py\", line 168, in _update_desktop_state\n    self.api.emit(\"desktop_companion.foreground_changed\", {\"process\": self.sensor.process, \"window\": self.sensor.window[:200]})\n    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: ModuleAPI.emit() takes 2 positional arguments but 3 were given\n",
+      "details": {
+        "os": "Windows 11",
+        "architecture": "AMD64",
+        "python": "3.14.6",
+        "source": "main_thread"
+      },
+      "has_diagnostics": false
+    },
+    {
       "id": "20260929232445-28831c7b",
       "created_at": "2026-09-29T23:24:45.649Z",
       "last_seen": "2026-09-29T23:24:45.649Z",
@@ -12782,5 +12800,5 @@
       "has_diagnostics": false
     }
   ],
-  "updated_at": "2026-09-29T23:24:47.324Z"
+  "updated_at": "2026-09-29T23:24:53.801Z"
 }
