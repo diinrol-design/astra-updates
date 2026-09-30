@@ -1,0 +1,18 @@
+{
+  "id": "20260930001637-55ae9752",
+  "created_at": "2026-09-30T00:16:37.050Z",
+  "last_seen": "2026-09-30T00:16:37.050Z",
+  "status": "new",
+  "occurrences": 1,
+  "instance_id": "8ef16fefc4a8415bb2102dd9cf357067",
+  "version": "1.00.5",
+  "title": "TypeError: ModuleAPI.emit() takes 2 positional arguments but 3 were given",
+  "description": "Traceback (most recent call last):\n  File \"C:\\Users\\Vitalya\\AppData\\Local\\AstraDesktop\\modules\\desktop-3d-companion\\main.py\", line 157, in tick\n    self.sensor_idle=idle_seconds(); self.sample_at=now\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: ModuleAPI.emit() takes 2 positional arguments but 3 were given\n",
+  "details": {
+    "os": "Windows 11",
+    "architecture": "AMD64",
+    "python": "3.14.6",
+    "source": "main_thread"
+  },
+  "has_diagnostics": false
+}
