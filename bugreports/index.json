@@ -2,6 +2,24 @@
   "schema_version": 1,
   "items": [
     {
+      "id": "20260930075805-9df209ba",
+      "created_at": "2026-09-30T07:58:05.701Z",
+      "last_seen": "2026-09-30T07:58:05.701Z",
+      "status": "new",
+      "occurrences": 1,
+      "instance_id": "24076aee9e8d4258b3af7a30cc2cd306",
+      "version": "1.00.5",
+      "title": "ModuleNotFoundError: No module named 'PySide6.QtMultimedia'",
+      "description": "Traceback (most recent call last):\n  File \"gui\\widgets\\modules_page.py\", line 1987, in <lambda>\n  File \"core\\modules\\engine.py\", line 326, in open_settings\n  File \"E:\\AstraDesktop\\modules\\voice-hearing\\main.py\", line 1739, in open_settings\n    from PySide6.QtMultimedia import QMediaDevices\nModuleNotFoundError: No module named 'PySide6.QtMultimedia'\n",
+      "details": {
+        "os": "Windows 11",
+        "architecture": "AMD64",
+        "python": "3.14.6",
+        "source": "main_thread"
+      },
+      "has_diagnostics": false
+    },
+    {
       "id": "20260930070911-e2fa7b29",
       "created_at": "2026-09-30T07:09:11.108Z",
       "last_seen": "2026-09-30T07:09:11.108Z",
@@ -14834,5 +14852,5 @@
       "has_diagnostics": false
     }
   ],
-  "updated_at": "2026-09-30T07:09:13.230Z"
+  "updated_at": "2026-09-30T07:58:07.933Z"
 }
