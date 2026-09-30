@@ -2,6 +2,24 @@
   "schema_version": 1,
   "items": [
     {
+      "id": "20260930121618-7d34e632",
+      "created_at": "2026-09-30T12:16:18.219Z",
+      "last_seen": "2026-09-30T12:16:18.219Z",
+      "status": "new",
+      "occurrences": 1,
+      "instance_id": "395702c86c384631a0273881a4265475",
+      "version": "1.00.6",
+      "title": "TypeError: 'str' object is not callable",
+      "description": "Traceback (most recent call last):\n  File \"C:\\Users\\Yuri\\Desktop\\Проект\\services\\voice_provider_service.py\", line 2432, in do_save\n    \"tts_voice_gender\": str(voice_refs[voice_combo.currentIndex()].gender().name()) if 0 <= voice_combo.currentIndex() < len(voice_refs) else \"\",\n                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^\nTypeError: 'str' object is not callable\n",
+      "details": {
+        "os": "Windows 11",
+        "architecture": "AMD64",
+        "python": "3.14.6",
+        "source": "main_thread"
+      },
+      "has_diagnostics": false
+    },
+    {
       "id": "20260930121430-c64a9336",
       "created_at": "2026-09-30T12:14:30.978Z",
       "last_seen": "2026-09-30T12:14:30.978Z",
@@ -14870,5 +14888,5 @@
       "has_diagnostics": false
     }
   ],
-  "updated_at": "2026-09-30T12:14:33.059Z"
+  "updated_at": "2026-09-30T12:16:20.178Z"
 }
