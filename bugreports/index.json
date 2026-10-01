@@ -2,6 +2,24 @@
   "schema_version": 1,
   "items": [
     {
+      "id": "20261001111542-a92b3120",
+      "created_at": "2026-10-01T11:15:42.380Z",
+      "last_seen": "2026-10-01T11:15:42.380Z",
+      "status": "new",
+      "occurrences": 1,
+      "instance_id": "395702c86c384631a0273881a4265475",
+      "version": "1.00.6",
+      "title": "AttributeError: 'VirtualStreamingBubble' object has no attribute '_codex_shimmer_timer'",
+      "description": "Traceback (most recent call last):\n  File \"C:\\Users\\Yuri\\Desktop\\Проект\\gui\\widgets\\input_bar.py\", line 1358, in submit\n    callback(text)\n    ~~~~~~~~^^^^^^\n  File \"C:\\Users\\Yuri\\Desktop\\Проект\\gui\\chat_widget.py\", line 602, in <lambda>\n    self.input_bar.submit_callback = lambda text: self.send_message(text)\n                                                  ~~~~~~~~~~~~~~~~~^^^^^^\n  File \"C:\\Users\\Yuri\\Desktop\\Проект\\gui\\chat_widget.py\", line 2793, in send_message\n    self._start_codex_agent_roundtrip(chat_id, text, conversation_history, profile_name=getattr(self, \"agent_profile_name\", \"codex\"))\n    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Yuri\\Desktop\\Проект\\gui\\chat_widget.py\", line 3926, in _start_codex_agent_roundtrip\n    self.streaming_widget.begin_codex_activity(\"Запускаю Codex…\")\n    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Yuri\\Desktop\\Проект\\gui\\widgets\\chat_engine_2.py\", line 4787, in begin_codex_activity\n    self.clear_codex_actions()\n    ~~~~~~~~~~~~~~~~~~~~~~~~^^\n  File \"C:\\Users\\Yuri\\Desktop\\Проект\\gui\\widgets\\chat_engine_2.py\", line 4743, in clear_codex_actions\n    self._codex_shimmer_timer.stop()\n    ^^^^^^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'VirtualStreamingBubble' object has no attribute '_codex_shimmer_timer'. Did you mean: '_codex_wait_timer'?\n",
+      "details": {
+        "os": "Windows 11",
+        "architecture": "AMD64",
+        "python": "3.14.6",
+        "source": "main_thread"
+      },
+      "has_diagnostics": false
+    },
+    {
       "id": "20260930133955-64599f02",
       "created_at": "2026-09-30T13:39:55.877Z",
       "last_seen": "2026-09-30T13:39:55.877Z",
@@ -14942,5 +14960,5 @@
       "has_diagnostics": false
     }
   ],
-  "updated_at": "2026-09-30T13:39:58.471Z"
+  "updated_at": "2026-10-01T11:15:44.022Z"
 }
