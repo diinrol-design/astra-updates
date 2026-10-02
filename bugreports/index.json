@@ -2,6 +2,24 @@
   "schema_version": 1,
   "items": [
     {
+      "id": "20261002105612-eca67b72",
+      "created_at": "2026-10-02T10:56:12.153Z",
+      "last_seen": "2026-10-02T10:56:12.153Z",
+      "status": "new",
+      "occurrences": 1,
+      "instance_id": "395702c86c384631a0273881a4265475",
+      "version": "1.00.6",
+      "title": "NameError: name 'request_codex_mode' is not defined",
+      "description": "Traceback (most recent call last):\n  File \"C:\\Users\\Yuri\\Desktop\\Проект\\gui\\widgets\\input_bar.py\", line 1328, in _handle_main_button\n    self.submit()\n    ~~~~~~~~~~~^^\n  File \"C:\\Users\\Yuri\\Desktop\\Проект\\gui\\widgets\\input_bar.py\", line 1358, in submit\n    callback(text)\n    ~~~~~~~~^^^^^^\n  File \"C:\\Users\\Yuri\\Desktop\\Проект\\gui\\chat_widget.py\", line 610, in <lambda>\n    self.input_bar.submit_callback = lambda text: self.send_message(text)\n                                                  ~~~~~~~~~~~~~~~~~^^^^^^\n  File \"C:\\Users\\Yuri\\Desktop\\Проект\\gui\\chat_widget.py\", line 2589, in send_message\n    if request_codex_mode and input_project_path:\n       ^^^^^^^^^^^^^^^^^^\nNameError: name 'request_codex_mode' is not defined. Did you mean: 'input_codex_mode'?\n",
+      "details": {
+        "os": "Windows 11",
+        "architecture": "AMD64",
+        "python": "3.14.6",
+        "source": "main_thread"
+      },
+      "has_diagnostics": false
+    },
+    {
       "id": "20261002105548-f3b47708",
       "created_at": "2026-10-02T10:55:48.136Z",
       "last_seen": "2026-10-02T10:55:48.136Z",
@@ -15572,5 +15590,5 @@
       "has_diagnostics": false
     }
   ],
-  "updated_at": "2026-10-02T10:55:49.924Z"
+  "updated_at": "2026-10-02T10:56:13.969Z"
 }
